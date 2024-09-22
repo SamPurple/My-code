@@ -23,19 +23,3 @@ while True:
 	for item, value in album.items():
 		print(f"{item}: {value}")
 
-#print("\n")
-
-# album = make_album('olivia rodrigo', 'guts')
-# for item, value in album.items():
-# 	print(f"{item.title()}: {value}")
-
-# print("\n")
-
-# album = make_album('underworld', 'beaucoup fish', 11)
-# for item, value in album.items():
-# 	print(f"{item.title()}: {value}")
-	
-# print("\n")
-
-# for item, value in make_album('kylie', 'wow').items():
-# 	print(f"{item.title()}: {value}")
