@@ -85,8 +85,3 @@ while play_again == 'y':
 
 
 
-#for pizza in pizza_order:
-#	print(f"Adding {pizza}")
-
-
-#input("\nYour pizza is ready!\nPress Enter to quit.")
