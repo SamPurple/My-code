@@ -26,11 +26,6 @@ while play_again == 'y':
 
 	answer = [colour1, colour2, colour3, colour4]
 
-	# answer = []
-	# for i in range (0,4):
-	# 	answer.append(random.choice(colours))
-	# 	colours.remove(answer[i])
-
 	win = False
 	number_of_guesses = 0
 
@@ -90,36 +85,6 @@ while play_again == 'y':
 
 
 
-#	and guess2 == colour2 and guess3 == colour3 and guess4 == colour4:
-#		win = True
-#		print("WELL DONE YOU GUESSED IT!!!!!")
-#	else:
-#		if guess1 == colour1:
-
-
-#answer = {'bead 1': colour1, 'bead 2': colour2, 'bead 3': colour3, 'bead 4': colour4 }
-
-#guess = input(f"Topping {value} please: ")
-#print(f"{pizza_toppings[0]}, {pizza_toppings[1]}, {pizza_toppings[2]}, {pizza_toppings[3]}, "
-#	f"{pizza_toppings[4]}, {pizza_toppings[5]} and {pizza_toppings[6]}")
-
-#unavailable_topping = random.choice(pizza_toppings)
-#print(unavailable_topping)
-#pizza_toppings.remove(unavailable_topping)
-
-#print("\nHey Customer, tell me what pizza toppings you would like. You can choose 3.")
-
-#pizza_order = []
-#for value in range(1,4):
-#	topping_choice = input(f"Topping {value} please: ")
-#	while topping_choice not in pizza_toppings:
-#		if topping_choice != unavailable_topping:
-#			topping_choice = input(f"Sorry, {topping_choice} is not one of our toppings. Please choose another: ")
-#		else:
-#			topping_choice = input(f"Sorry, we have run out of {topping_choice}, please choose something else: ")
-#	pizza_order.append(topping_choice)
-
-#print("\nOk, making your pizza...")
 #for pizza in pizza_order:
 #	print(f"Adding {pizza}")
 
