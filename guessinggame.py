@@ -82,6 +82,3 @@ while play_again == 'y':
 
 	print("Press 'y' to play again or enter to quit")
 	play_again = input()
-
-
-
